@@ -1,7 +1,7 @@
 import os
 import shutil
 
-path = '/Downloads'
+path = 'Users/camden/Downloads'
 
 files = os.listdir(path)
 
@@ -18,4 +18,3 @@ for file in files:
          os.makedirs(path+'/'+ext)
          shutil.move(path+'/'+file,path+'/'+ext+'/'+file)
 
-    
